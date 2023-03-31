@@ -297,6 +297,9 @@ li.nav-item:hover {
   border-radius: 25px;
   background-color: rgb(255, 255, 255);
 }
+.splide__list .splide__slide .card.abyss {
+  width: 25rem;
+}
 .card__img-body {
   border-radius: 25px 25px 0 0;
   overflow: hidden;
@@ -545,8 +548,14 @@ li.nav-item:hover {
       margin-bottom: 25px;
     }
 
+    
 }
 
+@media (max-width: 420px) {
+  .splide__list .splide__slide .card.abyss  {
+      width: 21rem;
+    }
+}
 
 /* section kartu */
 .kartu {
