@@ -477,6 +477,20 @@ li.nav-item:hover {
   h3 {
     font-size: 20px;
   }
+
+  .foto-kata-mereka{
+    width: 100%;
+    height: 230px;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+
+  .kata-mereka{
+    padding-top: 10px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+  }
+
   .coret {
     margin: 5px 0 0 45px;
   }
