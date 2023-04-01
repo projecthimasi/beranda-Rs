@@ -544,4 +544,8 @@ li.nav-item:hover {
     object-fit: cover;
     margin-bottom: 25px;
   }
+  .splide__list .splide__slide .card.abyss {
+    width: 21rem;
+  }
+
 }

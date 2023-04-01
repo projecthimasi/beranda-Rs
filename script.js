@@ -16,6 +16,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // splide
 var splide = new Splide('#splide0', {
+   pagination: false,
    type: 'loop',
    perPage: 3,
    autoplay: true,
@@ -51,6 +52,7 @@ var splide = new Splide('#splide0', {
 splide.mount();
 
 var splide = new Splide('#splide1', {
+   arrows: false,
    type: 'loop',
    autoplay: true,
    perPage: 3,
