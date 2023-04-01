@@ -301,12 +301,12 @@ li.nav-item:hover {
 .splide__list .splide__slide .card.abyss {
   width: 25rem;
 }
-.card__img-body {
+/* .card__img-body {
   border-radius: 25px 25px 0 0;
   overflow: hidden;
   height: 200px;
   position: relative;
-}
+} */
 .card__img-body:before {
   content: "";
   position: absolute;
