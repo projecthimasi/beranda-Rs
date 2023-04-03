@@ -647,6 +647,13 @@ li.nav-item:hover {
 }
 
 /* Jadwa Doketer */
+.filter{
+  margin-top: 1rem;
+}
+.filter select{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 .jadwal-dokter{
   margin-top: 3rem;
 }
@@ -681,4 +688,34 @@ li.nav-item:hover {
 .jadwal-dokter thead{
   background-color: #66b3ff;
   color: white;
+}
+.jadwal-dokter th{
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.pagenation{
+  margin-top: 3rem !important;
+}
+
+.pagenation li{
+  margin: 0 10px ;
+  border-radius: 100% !important;
+}
+.pagenation a{
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100% !important;
+}
+
+.pagenation .active{
+  background-color: #66b3ff;
+  color: white;
+}
+@media (max-width: 768px) {
+  .jadwal-dokter img{
+    margin-bottom: 3rem;
+  }
+  
 }
