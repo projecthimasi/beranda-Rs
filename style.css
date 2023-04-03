@@ -797,7 +797,11 @@ li.nav-item:hover {
   }
 }
 
-/* Jadwa Doketer */
+/* Jadwal Doketer */
+
+.filter{
+  margin-top: 1em;
+}
 .jadwal-dokter{
   margin-top: 3rem;
 }
