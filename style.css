@@ -1,5 +1,5 @@
 :root {
-  --color-primary:  color: #66b3ff;
+  --color-primary: color: #66b3ff;
 }
 
 body {
@@ -546,6 +546,131 @@ li.nav-item:hover {
 
 /* end recent article */
 
+
+
+
+/* start article content */
+
+.artikel {
+  width: 100%;
+}
+
+.artikel .cover {
+  width: 500px;
+  height: 500px;
+}
+
+.artikel p {
+  text-align: justify;
+}
+
+.share-btn-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.share-btn-container a i {
+  font-size: 32px;
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container .fa-share {
+  font-size: 28px;
+  padding-left: 3px;
+}
+
+.share-btn-container .fa-share {
+  color: #000000;
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-instagram {
+  color: #e6683c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+.share-btn-container1 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.share-btn-container1 a i {
+  font-size: 32px;
+}
+
+.share-btn-container1 a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.share-btn-container1 a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container1 .fa-share {
+  font-size: 28px;
+  padding-left: 3px;
+}
+
+.share-btn-container1 .fa-share {
+  color: #000000;
+}
+
+.share-btn-container1 .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container1 .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container1 .fa-instagram {
+  color: #e6683c;
+}
+
+.share-btn-container1 .fa-whatsapp {
+  color: #25d366;
+}
+
+.share-btn-container1 {
+  display: none;
+}
+
+/* end article content */
+
+
+
+
+
 /* Media Query */
 @media (max-width: 767px) {
   .container {
@@ -644,41 +769,71 @@ li.nav-item:hover {
   .splide__list .splide__slide .card.abyss {
     width: 21rem;
   }
+
+  .share-btn-container1 {
+    position: relative;
+    display: block;
+    transform: unset;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    padding: 16px 0;
+    justify-content: center;
+  }
+
+  .share-btn-container1 a {
+    margin: 0 15px;
+  }
+
+  .share-btn-container {
+    display: none;
+  }
+
+  .artikel .cover {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 /* Jadwa Doketer */
-.jadwal-dokter{
+.jadwal-dokter {
   margin-top: 3rem;
 }
+
 .jadwal-dokter img {
   border-radius: 100%;
 }
 
-.jadwal-dokter p{
+.jadwal-dokter p {
   color: #747474;
   font-size: small;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
-.jadwal-dokter .btn{
+
+.jadwal-dokter .btn {
   padding: 1px 10px !important;
   letter-spacing: 2px;
   background-color: #66b3ff;
   border: none;
 }
 
-.jadwal-dokter h5{
+.jadwal-dokter h5 {
   font-size: x-large;
   color: #66b3ff;
 }
-.jadwal-dokter h6{
+
+.jadwal-dokter h6 {
   font-size: large;
   font-weight: 700;
   color: #54595f;
- 
+
 }
-.jadwal-dokter thead{
+
+.jadwal-dokter thead {
   background-color: #66b3ff;
   color: white;
 }
